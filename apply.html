@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application - Hot Beans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 onclick="location.href='index.html'">Application</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="trainees.html">Our Trainees</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Application form</h2>
+            <h5>Apply here to become a member of the Hot Beans</h5>
+            <form action="submit_application.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="first-name">Upload Your CV</label>
+                <input type="file" id="first-name" name="first-name">
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <a onclick="location.href='submit.html'" style="color:white;" ><button style="width: 100%;">Apply</button></a>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            &copy; 2024 Hot Beans
+        </div>
+    </footer>
+</body>
+</html>
