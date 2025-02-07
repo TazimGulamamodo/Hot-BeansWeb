@@ -78,11 +78,12 @@ h2 {
     color: black;
 }
 
-img {
+img:hover {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     position: flex;
+    transform: rotate(180deg);
 }
 
 
