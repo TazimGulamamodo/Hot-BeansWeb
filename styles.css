@@ -83,7 +83,6 @@ img:hover {
     height: auto;
     border-radius: 8px;
     position: flex;
-    transform: rotate(180deg);
 }
 
 
