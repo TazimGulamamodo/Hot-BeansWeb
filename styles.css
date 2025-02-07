@@ -24,8 +24,18 @@ p{
 }
 
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2em;
+    width: 200px;
+    cursor: pointer;
+}
+button{
+    color: #ffffff;
+    padding: 10px  25px;
+    background:transparent;
+    border: 1px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
 }
 
 nav ul {
